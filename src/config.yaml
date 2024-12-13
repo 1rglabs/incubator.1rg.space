@@ -1,6 +1,6 @@
 site:
   name: 1RG Incubator
-  site: 'https://astrowind.vercel.app'
+  site: 'https://incubator.1rg.space'
   base: '/'
   trailingSlash: false
 
@@ -9,22 +9,22 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: '1RG Incubator'
+    template: '%s — 1RG Incubator'
+  description: "The 1RG incubator is a 12-week mentorship program for individuals who are developing projects at the intersection of technology and community impact. "
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: 1RG Incubator
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/incubation.jpg'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@1rgspace'
+    site: '@1rgpace'
     cardType: summary_large_image
 
 i18n:
