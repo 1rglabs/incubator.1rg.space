@@ -7,8 +7,11 @@ export const headerData = {
     {
       text: '1RG',
       links: [
-        { text: 'Labs', href: 'https://labs.1rg.space',  target: '_blank' },
         { text: 'Space', href: 'https://1rg.space',  target: '_blank'  },
+        { text: 'Labs', href: 'https://labs.1rg.space',  target: '_blank' },
+        { text: 'Words', href: 'https://words.1rg.space',  target: '_blank' },
+
+
       ],
     },
   ],
