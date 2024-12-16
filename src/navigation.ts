@@ -3,7 +3,7 @@
 export const headerData = {
   links: [
     { text: 'Brief', href: 'https://docs.google.com/document/d/11jCN2TfN-sIVuEjzjUChzqA18VYQUwwWDWn7rW0U9t8/edit?tab=t.0#heading=h.bsgneoiwl1hw',  target: '_blank'  },
-    { text: 'RFP', href: 'https://docs.google.com/document/d/1Wu-dUFfxAa-7hQ7O7TSKhBWYRJxR09Z75zmC0Prcm0s/edit?tab=t.0#heading=h.53f8ced0i4y8',  target: '_blank' },
+    { text: 'FAQs', href: '#faq' },
     {
       text: '1RG',
       links: [

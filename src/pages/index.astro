@@ -2,7 +2,6 @@
 import Layout from '~/layouts/LandingLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features from '~/components/widgets/Features.astro';
 import Header from '~/components/widgets/Header.astro';
@@ -19,23 +18,22 @@ const metadata = {
   <Header slot="header" {...headerData} isSticky />
 
   <Hero
-    tagline="Empowering Our Communities"
+    tagline=""
     actions={[
       {
         variant: 'primary',
-        target: '_blank',
         text: 'Learn More',
         href: '#program',
       },
-      { text: 'FAQs', href: '#faqs' },
+      { text: 'Read the RFP', href: 'https://docs.google.com/document/d/1Wu-dUFfxAa-7hQ7O7TSKhBWYRJxR09Z75zmC0Prcm0s/edit?tab=t.0#heading=h.53f8ced0i4y8' },
     ]}
   >
     <Fragment slot="title">
-      The 1RG <span class="text-accent dark:text-white highlight">incubator</span> supports audacious projects that reimagine the relationship between people, technology, and the communities they live in.
+      Empowering our communities with humane technology
     </Fragment>
 
     <Fragment slot="subtitle">
-      The program focuses on three key areas: mutual aid, political advocacy, and civic engagement initiatives that aim to improve life in Toronto. 
+      The 1RG incubator supports audacious projects that reimagine the relationship between people, technology, and the communities they live in.
     </Fragment>
   </Hero>
 
