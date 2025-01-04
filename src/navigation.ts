@@ -52,7 +52,7 @@ export const footerData = {
     //{ ariaLabel: 'BlueSky', icon: 'tabler:brand-bluesky', href: '#' },
     { ariaLabel: 'Mastodon', icon: 'tabler:brand-mastodon', href: 'https://cosocial.ca/@1rg' },
     { ariaLabel: 'Bluesky', icon: 'tabler:brand-bluesky', href: 'https://bsky.app/profile/1rgspace.bsky.social' },
-    { ariaLabel: 'X', icon: 'tabler:brand-instagram', href: 'https://x.com/1RGSpace'},
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/1RGSpace'},
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/1rg.space' },
     //   { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     //    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
