@@ -11,7 +11,7 @@ metadata:
   title:
     default: '1RG Incubator'
     template: '%s — 1RG Incubator'
-  description: "The 1RG incubator is a 12-week mentorship program for individuals who are developing projects at the intersection of technology and community impact. "
+  description: 'The 1RG incubator is a 12-week mentorship program for individuals who are developing projects at the intersection of technology and community impact. '
   robots:
     index: true
     follow: true

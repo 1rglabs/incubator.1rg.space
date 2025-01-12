@@ -25,7 +25,10 @@ const metadata = {
         text: 'Learn More',
         href: '#program',
       },
-      { text: 'Read the RFP', href: 'https://docs.google.com/document/d/1Wu-dUFfxAa-7hQ7O7TSKhBWYRJxR09Z75zmC0Prcm0s/edit?tab=t.0#heading=h.53f8ced0i4y8' },
+      {
+        text: 'Read the RFP',
+        href: 'https://docs.google.com/document/d/1Wu-dUFfxAa-7hQ7O7TSKhBWYRJxR09Z75zmC0Prcm0s/edit?tab=t.0#heading=h.53f8ced0i4y8',
+      },
     ]}
     image={{
       src: '~/assets/images/incubation.jpg',
@@ -33,12 +36,11 @@ const metadata = {
       loading: 'eager',
     }}
   >
-    <Fragment slot="title">
-      Empowering our communities with humane technology
-    </Fragment>
+    <Fragment slot="title"> Empowering our communities with humane technology </Fragment>
 
     <Fragment slot="subtitle">
-      The 1RG incubator supports audacious projects that reimagine the relationship between people, technology, and the communities they live in.
+      The 1RG incubator supports audacious projects that reimagine the relationship between people, technology, and the
+      communities they live in.
     </Fragment>
   </Hero>
 
@@ -50,35 +52,32 @@ const metadata = {
     items={[
       {
         title: 'Co-working',
-        description:
-          'Free membership to the 1RG space for the duration of the program.',
+        description: 'Free membership to the 1RG space for the duration of the program.',
         icon: 'tabler:home-2',
       },
       {
         title: 'Mentorships',
-        description:
-          'Mentorship and advisory, with weekly office hours with a variety of mentors.',
+        description: 'Mentorship and advisory, with weekly office hours with a variety of mentors.',
         icon: 'tabler:calendar-time',
       },
       {
         title: 'Accountability',
-        description:'Weekly facilitated peer-to-peer accountability meetings.',
+        description: 'Weekly facilitated peer-to-peer accountability meetings.',
         icon: 'tabler:users',
       },
       {
         title: 'Networking',
-        description:'Weekly dinners and networking opportunities.',
+        description: 'Weekly dinners and networking opportunities.',
         icon: 'tabler:affiliate',
       },
       {
         title: 'Community',
-        description:
-          'A supportive group of builders and like minded individuals.',
+        description: 'A supportive group of builders and like minded individuals.',
         icon: 'tabler:friends',
       },
-      {title: 'Exposure', // Legitimacy?
-        description:
-          'Opportunities to present your work to a wider audience.',
+      {
+        title: 'Exposure', // Legitimacy?
+        description: 'Opportunities to present your work to a wider audience.',
         icon: 'tabler:users-group',
       },
     ]}
@@ -101,9 +100,10 @@ const metadata = {
   >
     <Fragment slot="title">Join our first batch</Fragment>
 
-    <Fragment slot="subtitle">Starts March 31st, 2025 with applications due February 15th, and requires no equity or financial commitment.</Fragment>
+    <Fragment slot="subtitle"
+      >Starts March 31st, 2025 with applications due February 15th, and requires no equity or financial commitment.</Fragment
+    >
   </CallToAction>
-
 
   <FAQs
     id="faq"

@@ -2,16 +2,18 @@
 
 export const headerData = {
   links: [
-    { text: 'Brief', href: 'https://docs.google.com/document/d/11jCN2TfN-sIVuEjzjUChzqA18VYQUwwWDWn7rW0U9t8/edit?tab=t.0#heading=h.bsgneoiwl1hw',  target: '_blank'  },
+    {
+      text: 'Brief',
+      href: 'https://docs.google.com/document/d/11jCN2TfN-sIVuEjzjUChzqA18VYQUwwWDWn7rW0U9t8/edit?tab=t.0#heading=h.bsgneoiwl1hw',
+      target: '_blank',
+    },
     { text: 'FAQs', href: '#faq' },
     {
       text: '1RG',
       links: [
-        { text: 'Space', href: 'https://1rg.space',  target: '_blank'  },
-        { text: 'Labs', href: 'https://labs.1rg.space',  target: '_blank' },
-        { text: 'Words', href: 'https://words.1rg.space',  target: '_blank' },
-
-
+        { text: 'Space', href: 'https://1rg.space', target: '_blank' },
+        { text: 'Labs', href: 'https://labs.1rg.space', target: '_blank' },
+        { text: 'Words', href: 'https://words.1rg.space', target: '_blank' },
       ],
     },
   ],
@@ -52,7 +54,7 @@ export const footerData = {
     //{ ariaLabel: 'BlueSky', icon: 'tabler:brand-bluesky', href: '#' },
     { ariaLabel: 'Mastodon', icon: 'tabler:brand-mastodon', href: 'https://cosocial.ca/@1rg' },
     { ariaLabel: 'Bluesky', icon: 'tabler:brand-bluesky', href: 'https://bsky.app/profile/1rgspace.bsky.social' },
-    { ariaLabel: 'X', icon: 'tabler:brand-instagram', href: 'https://x.com/1RGSpace'},
+    { ariaLabel: 'X', icon: 'tabler:brand-instagram', href: 'https://x.com/1RGSpace' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/1rg.space' },
     //   { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     //    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
