@@ -2,16 +2,23 @@
 
 export const headerData = {
   links: [
-    { text: 'Brief', href: 'https://docs.google.com/document/d/11jCN2TfN-sIVuEjzjUChzqA18VYQUwwWDWn7rW0U9t8/edit?tab=t.0#heading=h.bsgneoiwl1hw',  target: '_blank'  },
+    {
+      text: 'Brief',
+      href: 'https://docs.google.com/document/d/11jCN2TfN-sIVuEjzjUChzqA18VYQUwwWDWn7rW0U9t8/edit?tab=t.0#heading=h.bsgneoiwl1hw',
+      target: '_blank',
+    },
+    {
+      text: 'Become a Mentor',
+      href: 'https://docs.google.com/document/d/1dHh9ALH7o8W-dCwZ10nbpVJBk1z9n1egMFB3lbhqb6Q/edit?tab=t.0',
+      target: '_blank',
+    },
     { text: 'FAQs', href: '#faq' },
     {
       text: '1RG',
       links: [
-        { text: 'Space', href: 'https://1rg.space',  target: '_blank'  },
-        { text: 'Labs', href: 'https://labs.1rg.space',  target: '_blank' },
-        { text: 'Words', href: 'https://words.1rg.space',  target: '_blank' },
-
-
+        { text: 'Space', href: 'https://1rg.space', target: '_blank' },
+        { text: 'Labs', href: 'https://labs.1rg.space', target: '_blank' },
+        { text: 'Words', href: 'https://words.1rg.space', target: '_blank' },
       ],
     },
   ],
